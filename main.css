@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body, html {
+	background-color: #2C2C29;
+	height: 0px;
+}
+
+h1 {
+	color: floralwhite;
+	transform: translateY(50%);
+}
+
+form {
+	color: floralwhite;
+	transform: translateY(100px);
+}
