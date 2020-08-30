@@ -5,16 +5,15 @@
 }
 
 body, html {
-	background-color: #2C2C29;
 	height: 0px;
 }
 
 h1 {
-	color: floralwhite;
+	color: black;
 	transform: translateY(50%);
 }
 
 form {
-	color: floralwhite;
+	color: black;
 	transform: translateY(100px);
 }
