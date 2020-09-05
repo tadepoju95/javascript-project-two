@@ -1,3 +1,4 @@
+/*
 let pickColor = () => {
 	let optionsOfColor = document.getElementById('colors').value; 
     console.log(optionsOfColor);
@@ -12,6 +13,19 @@ let pickColor = () => {
 	} else if(optionsOfColor === 'orange') {
 		return document.getElementById('colorOptions').style.backgroundColor = 'orange';
 	}
+}
+*/
+
+//Another way of switching colors 
+
+let pickColor = () => {
+	let optionsOfColor = document.getElementById('colors').value; 
+    let optionsOfColorArray = ['pink', 'black', 'brown', 'blue', 'orange'];
+    for(let i = 0; i < optionsOfColorArray.length; i++) {
+	if(optionsOfColor === optionsOfColorArray[i]) {
+		return document.getElementById('colorOptions').style.backgroundColor = optionsOfColorArray[i];
+	} 
+  }
 }
 
 
